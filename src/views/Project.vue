@@ -50,6 +50,46 @@ function navigateToComponentTwo() {
             </div>
             </n-space>
         </n-card> 
+        <n-card size="huge" hoverable @click="navigateToComponentOne">
+            <n-space vertical class="content">          
+            <div class="content-title">
+                基于OpenGL模仿《王牌空战》的3D游戏
+            </div>
+            <div>
+                使用贝塞尔曲线优化飞机飞行轨迹，使用了Blinn-Phong光照模型
+            </div>
+            <div>
+                熟悉了着色器，管线，渲染等计算机图形学原理
+            </div>
+            </n-space>
+        </n-card> 
+        <n-card size="huge" hoverable @click="navigateToComponentOne">
+            <n-space vertical class="content">          
+            <div class="content-title">
+                模仿Yahoo! Finance的模拟炒股网站：09/2021 –12/2021
+            </div>
+            <div>
+                前端使用react，后端采用python的flask
+            </div>
+            <div>
+                实现了追踪股票组合的盈亏，提供相关股票的新闻
+            </div>
+            </n-space>
+        </n-card> 
+
+        <n-card size="huge" hoverable @click="navigateToComponentOne">
+            <n-space vertical class="content">          
+            <div class="content-title">
+                云原生外卖后台系统
+            </div>
+            <div>
+                在AWS上使用docker+ k8s + RDS,前端使用了vue，后端选择Go 
+            </div>
+            <div>
+                实现了可扩容的微服务架构
+            </div>
+            </n-space>
+        </n-card> 
     </n-space>
     </div>
 </template>

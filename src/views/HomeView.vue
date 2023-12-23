@@ -19,10 +19,9 @@ import { defineComponent, ref } from 'vue'
     <selfintro/>
     <skills/>
     <EdgBg/>
-    <Reserch/>
     <Project/>
+    <Reserch/>
     
-
   </main>
 </template>
 
